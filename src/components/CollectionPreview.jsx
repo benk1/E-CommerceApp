@@ -2,6 +2,7 @@ import React from 'react';
 import './styles/collectionPreview.styles.scss';
 
 import CollectionItem from './CollectionItem';
+
 const CollectionPreview = ({ title, items }) => (
   <div className='collection-preview'>
     <h1 className='title'>{title.toUpperCase()}</h1>
