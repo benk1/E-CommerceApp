@@ -17,6 +17,6 @@ const CartDropDown = ({ cartItems }) => (
   </div>
 );
 const mapStateToProps = (state) => ({
-  cartItems: selectCartItems(state),
+  cartItems: selectCartItems(state)
 });
 export default connect(mapStateToProps)(CartDropDown);
